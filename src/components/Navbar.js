@@ -8,11 +8,7 @@ function Navbar() {
   return (
     <nav className="min-h-[9.5rem] relative navbar navbar-expand-lg bg-[#FDF9F5] translate-y-0 shadow-lg flex flex-wrap justify-between items-center top-0 z-[11px] w-screen backdrop-blur-[10px] transition-all duration-[250ms] ease-[cubic-bezier(0.645,0.045,0.355,1)] px-4 md:px-16 pt-[3.75rem] pb-[1.875rem]">
       <div className="container-fluid flex-wrap w-full flex flex-row items-center justify-between z-[12px] ">
-        <img
-          src={logo}
-          alt="logo"
-          className="h-[2.625rem] w-[11.25rem] mr-[10.125rem]"
-        />
+        <img src={logo} alt="logo" className="h-[2.625rem] w-[11.25rem]" />
         <button
           class="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
           type="button"
@@ -50,8 +46,15 @@ function Navbar() {
             <li className="px-2 py-2 cursor-pointer">FAQ</li>
             <li className="px-2 py-2 cursor-pointer">Privacy Policies</li>
           </ul>
+        </div>
+        <div
+          className={`collapse navbar-collapse flex-col lg:flex-row lg:items-center justify-between ${
+            show === true && "show py-2 flex-col items-start"
+          }`}
+          id="navbarSupportedContent1"
+        >
           <div className="flex flex-row">
-            <div className="border border-[#06080E] rounded-2xl h-[4.0625rem] w-[8.5rem] mr-8 items-center justify-center flex">
+            <div className="border border-[#06080E] rounded-2xl h-[3.0625rem] w-[6.5rem] px-8 py-4 mr-6 items-center justify-center flex">
               <p className="font-[OpenSans-Bold] text-2xl ">Login</p>
             </div>
             <Button text={"Sign Up"} />
