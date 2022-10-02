@@ -54,7 +54,7 @@ function Navbar() {
           id="navbarSupportedContent1"
         >
           <div className="flex flex-row">
-            <div className="border border-[#06080E] rounded-2xl h-[3.0625rem] w-[6.5rem] px-8 py-4 mr-6 items-center justify-center flex">
+            <div className="cursor-pointer border border-[#06080E] rounded-2xl h-[3.0625rem] w-[6.5rem] px-8 py-4 mr-6 items-center justify-center flex">
               <p className="font-[OpenSans-Bold] text-2xl ">Login</p>
             </div>
             <Button text={"Sign Up"} />
