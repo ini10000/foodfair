@@ -14,7 +14,6 @@ function App() {
       <Hero />
       <Works />
       <Categories />
-
       <Recommendation />
       <Footer />
     </div>
