@@ -13,10 +13,10 @@ function Footer() {
           </p>
           <div className="mx-auto flex mt-8 h-[3.75rem] lg:w-[34rem] items-center w-full">
             <input
-              className="md:w-[28.125rem] flex items-center rounded-2xl mr-4 px-4 py-[1.25rem]  h-[3.0625rem]  border border-[#000000]/0.6 bg-[#FDF9F5] cursor-text"
+              className="w-[50%] sm:w-full flex items-center rounded-2xl mr-4 px-4 py-[1.25rem]  h-[3.0625rem]  border border-[#000000]/0.6 bg-[#FDF9F5] cursor-text"
               placeholder="Enter Email Address"
             ></input>
-            <div className="hidden md:block">
+            <div className="hidden sm:block">
               <Button text="Subscribe" />
             </div>
           </div>

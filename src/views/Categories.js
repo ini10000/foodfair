@@ -13,7 +13,7 @@ function Categories() {
         </p>
         <img src={caret} alt="caret" />
       </div>
-      <div className="flex justify-center md:justify-between flex-wrap">
+      <div className="flex items-center justify-center flex-wrap">
         {CategoryData.map((item, index) => (
           <Category item={item} />
         ))}

@@ -4,7 +4,7 @@ import arrow from "../assets/images/arrow.svg";
 function Category({ item }) {
   const { image, title, details } = item;
   return (
-    <div className="w-[17rem] m-2 drop-shadow-lg border rounded-2xl">
+    <div className="w-[17rem] m-2 shadow-lg border rounded-2xl">
       <img src={image} alt="restaurant" />
       <div className="text-left px-4">
         <p className="font-[OpenSans-Bold] text-[2rem] mt-8 mb-2">{title}</p>
